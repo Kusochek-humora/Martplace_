@@ -1,0 +1,16 @@
+@mixin font_logo {
+    font-family: 'Quicksand-Bold';
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin pos {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+$b:#0674ec;
